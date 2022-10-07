@@ -1,3 +1,15 @@
 body {
     background-color: #bfd9ff;
 }
+
+.default {
+    color: #3b25ff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e692ff;
+    text-decoration: none;
+}
