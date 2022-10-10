@@ -22,9 +22,12 @@
 
     <form action="">
         <label for="first_name">First name</label>
-        <input type="text" id="first_name" name="first_name" class="default">
+        <input type="text" id="first_name" name="first_name" class="default" autocomplete="on">
         <label for="last_name">Last name</label>
-        <input type="text" id="last_name" name="last_name" class="default">
+        <input type="text" id="last_name" name="last_name" class="default" autocomplete="on">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="default">
+        <br>
         <input type="submit" placeholder="Submit" class="default">
     </form>
     
@@ -36,6 +39,18 @@
         <label for="javascript">Javascript</label>
         <input type="radio" id="javascript" name="language">
         <input type="submit" placeholder="Submit">
+    </form>
+
+    <br>
+
+    <form action="">
+        <label for="cars">Choose the car: </label>
+        <select name="car" id="cars">
+            <option value="Volvo">Volvo</option>
+            <option value="BMW">BMW</option>
+            <option value="Porsche">Porsche</option>
+            <input type="submit" value="Choose">
+        </select>
     </form>
     
 </body>
