@@ -27,7 +27,9 @@ body {
 }
 
 .header__logo__span {
-    color: #671ae4;
+    background: -webkit-linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .form {
