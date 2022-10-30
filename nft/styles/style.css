@@ -30,6 +30,20 @@ body {
     color: #671ae4;
 }
 
+.form {
+    position: relative;
+}
+
+.form__button {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
 .header__list {
     display: flex;
     list-style-type: none;
