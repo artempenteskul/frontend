@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    color: #ffffff;
 }
 
 .header {
@@ -78,7 +79,7 @@ body {
     text-decoration: none;
 }
 
-.header__link__button {
+.header__link__btn {
     background: linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
     border-radius: 10px;
     padding: 10px 20px;
@@ -87,4 +88,11 @@ body {
 .container {
     max-width: 1197px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
 }
