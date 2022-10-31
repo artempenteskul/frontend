@@ -83,3 +83,8 @@ body {
     border-radius: 10px;
     padding: 10px 20px;
 }
+
+.container {
+    max-width: 1197px;
+    margin: 0 auto;
+}
