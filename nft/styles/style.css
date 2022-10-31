@@ -105,14 +105,12 @@ body {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 30px;
 }
 
 .main__desc {
     font-size: 16px;
     line-height: 1.8;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 25px;
 }
 
 .main__btn {
@@ -131,7 +129,6 @@ body {
 
 .main__list {
     display: flex;
-    margin-top: 30px;
     list-style-type: none;
     padding-left: 0px;
 }
