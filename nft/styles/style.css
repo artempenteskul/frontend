@@ -129,6 +129,8 @@ body {
 
 .main__list {
     display: flex;
+    text-align: center;
+    gap: 110px;
     list-style-type: none;
     padding-left: 0px;
 }
@@ -139,6 +141,14 @@ body {
 
 .main__span {
     display: block;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.main__item {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
 }
 
 .main__img {
