@@ -166,11 +166,11 @@ body {
 
 .cryptos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 120px;
 }
 
 .cryptos__img {
-    height: 70px;
+    height: 80px;
     width: auto;
 }
