@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    color: #ffffff;
 }
 
 .header {
@@ -14,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 15px 110px 15px;
+    padding: 20px 15px 105px 15px;
 }
 
 .header__logo {
@@ -71,6 +72,7 @@ body {
     display: flex;
     list-style-type: none;
     gap: 40px;
+    font-size: 20px;
 }
 
 .header__link {
@@ -78,8 +80,87 @@ body {
     text-decoration: none;
 }
 
-.header__link__button {
+.header__link__btn {
     background: linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
     border-radius: 10px;
     padding: 10px 20px;
 }
+
+.container {
+    max-width: 1197px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__text {
+    flex-basis: 490px;
+}
+
+.main__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.main__desc {
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.main__btn {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+}
+
+.main__link__btn {
+    background: linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
+    margin-right: 35px;
+}
+
+.main__list {
+    display: flex;
+    text-align: center;
+    gap: 110px;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.main__image {
+    flex-basis: calc(100% - 490px - 116px);
+}
+
+.main__span {
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.main__item {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+.main__img {
+    width: 100%;
+}
+
