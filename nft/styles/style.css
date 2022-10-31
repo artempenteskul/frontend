@@ -96,3 +96,55 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.main__text {
+    flex-basis: 490px;
+}
+
+.main__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.main__desc {
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 25px;
+}
+
+.main__btn {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+}
+
+.main__link__btn {
+    background: linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
+    margin-right: 30px;
+}
+
+.main__list {
+    display: flex;
+    margin-top: 30px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.main__image {
+    flex-basis: calc(100% - 490px - 116px);
+}
+
+.main__span {
+    display: block;
+}
+
+.main__img {
+    width: 100%;
+}
+
