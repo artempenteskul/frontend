@@ -167,8 +167,8 @@ body {
 .cryptos {
     display: flex;
     justify-content: space-around;
-    margin-top: 120px;
-    margin-bottom: 140px;
+    margin-top: 90px;
+    margin-bottom: 100px;
 }
 
 .cryptos__img {
@@ -278,6 +278,7 @@ body {
     background: linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
     padding: 14px 20px;
     margin-top: 20px;
+    transition: .2s;
 }
 
 .card__btn:hover {
@@ -285,4 +286,9 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 2px solid rgba(103, 26, 228, 80%);
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
 }
