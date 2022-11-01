@@ -206,6 +206,11 @@ body {
     padding: 26px;
     flex-basis: 32.5%;
     box-sizing: border-box;
+    transition: .3s;
+}
+
+.card__item:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .card__cover {
@@ -273,4 +278,11 @@ body {
     background: linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
     padding: 14px 20px;
     margin-top: 20px;
+}
+
+.card__btn:hover {
+    background: -webkit-linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid rgba(103, 26, 228, 80%);
 }
