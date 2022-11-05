@@ -404,6 +404,9 @@ body {
     .header, .container {
         max-width: 750px;
     }
+    .header {
+        padding-bottom: 60px;
+    }
     .form__input, .header__nav, .form__button {
         display: none;
     }
@@ -424,14 +427,11 @@ body {
         background-image: url(../images/search.svg);
         margin-left: 25px;
     }
-    .main {
-        position: relative;
-    }
     .main__image {
-        flex-basis: inherit;
-        position: absolute;
-        max-width: 33vw;
-        right: 0;
+        display: none;
+    }
+    .main__text {
+        flex-basis: 100%;
     }
     .cryptos {
         margin-top: 50px;
