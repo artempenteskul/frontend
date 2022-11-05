@@ -467,3 +467,36 @@ body {
         font-size: 30px;
     }
 }
+
+@media (max-width: 600px) {
+    .header, .container {
+        max-width: 500px;
+    }
+    .main__title {
+        font-size: 38px;
+    }
+    .main__desc, .main__btn, .main__item {
+        font-size: 16px;
+    }
+    .main__span {
+        font-size: 22px;
+    }
+    .cryptos__img {
+        height: 35px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .desc, .collapsible {
+        font-size: 16px;
+    }
+    .faq, .cards {
+        flex-direction: column;
+    }
+    .cards {
+        max-width: 300px;
+        gap: 25px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
