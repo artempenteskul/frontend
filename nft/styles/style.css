@@ -424,8 +424,8 @@ body {
         background-image: url(../images/search.svg);
     }
     .header__menu {
-        background-image: url(../images/search.svg);
-        margin-left: 25px;
+        background-image: url(../images/menu.svg);
+        margin-left: 20px;
     }
     .main__image {
         display: none;
