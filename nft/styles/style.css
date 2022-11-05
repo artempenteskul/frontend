@@ -287,7 +287,6 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 .content {
-    padding: 0px 18px;
     max-height: 0px;
     overflow: hidden;
     line-height: 1.5;
@@ -388,5 +387,12 @@ body {
     }
     .card__info {
         gap: 20px;
+    }
+    .card__btn, .collapsible{
+        font-size: 18px;
+    }
+    .banner {
+        margin-top: 70px;
+        margin-bottom: 50px;
     }
 }
