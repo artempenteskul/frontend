@@ -526,4 +526,10 @@ body {
     .desc {
         font-size: 14px;
     }
+    .banner {
+        padding: 30px 20px;
+    }
+    .banner__title {
+        font-size: 26px;
+    }
 }
