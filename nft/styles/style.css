@@ -424,4 +424,46 @@ body {
         background-image: url(../images/search.svg);
         margin-left: 25px;
     }
+    .main {
+        position: relative;
+    }
+    .main__image {
+        flex-basis: inherit;
+        position: absolute;
+        max-width: 33vw;
+        right: 0;
+    }
+    .cryptos {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .cryptos__img {
+        height: 50px;
+    }
+    .cards {
+        margin-bottom: 50px;
+    }
+    .card__item {
+        padding: 15px;
+    }
+    .card__img, .card__cover {
+        height: 30vw;
+    }
+    .card__info {
+        flex-direction: column;
+        text-align: center;
+    }
+    .card__bid {
+        margin-top: 0px;
+    }
+    .card__bid, .card__price {
+        text-align: center;
+    }
+    .banner {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .banner__title {
+        font-size: 30px;
+    }
 }
