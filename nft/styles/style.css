@@ -500,3 +500,30 @@ body {
         margin-top: 30px;
     }
 }
+
+@media (max-width: 450px) {
+    .header, .container {
+        max-width: 300px;
+    }
+    .header {
+        padding-bottom: 30px;
+    }
+    .main__title {
+        font-size: 30px;
+    }
+    .main__list {
+        gap: 25px;
+    }
+    .cryptos {
+        margin-bottom: 50px;
+    }
+    .cryptos__img {
+        height: 25px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .desc {
+        font-size: 14px;
+    }
+}
