@@ -1,1 +1,1 @@
-frontend tutorials (html, css, js)
+frontend tutorials
