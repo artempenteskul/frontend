@@ -26,6 +26,7 @@ body {
 }
 .header__logo__span {
     background: -webkit-linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -246,6 +247,7 @@ body {
 }
 .card__btn:hover {
     background: -webkit-linear-gradient(212.02deg, #b75cff 6.04%, #671ae4 92.95%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 2px solid rgba(103, 26, 228, 80%);
