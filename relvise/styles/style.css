@@ -1,0 +1,9 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+._container {
+    max-width: 1050px;
+    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
+}
