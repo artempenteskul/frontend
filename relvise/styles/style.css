@@ -1,6 +1,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #252B42;
+    font-size: 14px;
+    font-weight: 500;
 }
+a {
+    text-decoration: none;
+}
+/* -------------------------------------------- */
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -8,4 +15,35 @@ body {
 ._container {
     max-width: 1050px;
     margin: 0px auto;
+}
+/* -------------------------------------------- */
+.header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 20;
+}
+.header__container{
+    display: flex;
+    min-height: 105px;
+    align-items: center;
+}
+.header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+}
+.header__menu {
+    margin-left: 130px;
+}
+/* -------------------------------------------- */
+.menu__list {
+    display: flex;
+    gap: 20px;
+}
+.menu__link {
+    color: #737373;
+    font-weight: 600;
+    line-height: 170%;
 }
