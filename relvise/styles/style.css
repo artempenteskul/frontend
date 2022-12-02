@@ -96,7 +96,7 @@ a {
 }
 /* -------------------------------------------- */
 .footer {
-    background-color: red;
+    
 }
 /* -------------------------------------------- */
 .main-block {
@@ -106,7 +106,7 @@ a {
     position: relative;
     z-index: 2;
     padding: 185px 0px 190px 0px;
-    max-width: 510px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     gap: 35px;
