@@ -135,17 +135,24 @@ a {
     gap: 15px;
 }
 .main-block__button {
-    background: #FF7B47;
     border-radius: 37px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px 36px;
-    color: #FFFFFF;
+    padding: 5px 36px;
     letter-spacing: 0.2px;
     font-weight: 700;
     line-height: 150%;
-    min-height: 38px;
+    min-height: 48px;
     font-size: 14px;
+}
+.main-block__button_orange {
+    background: #FF7B47;
+    color: #FFFFFF;
+}
+.main-block__button_transparent {
+    background: transparent;
+    color: #0D5C63;
+    border: 1px solid #0D5C63;
 }
