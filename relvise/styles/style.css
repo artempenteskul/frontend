@@ -95,6 +95,11 @@ a {
 .page {
     flex: 1 1 auto;
 }
+.page___services {
+    position: relative;
+    z-index: 2;
+    margin: -110px 0 0 0;
+}
 /* -------------------------------------------- */
 .main-block {
     position: relative;
@@ -198,6 +203,9 @@ a {
 }
 .services__column_green {
     background: #0D5C63;
+    color: #FFFFFF;
+}
+.services__column_green .item-service__text {
     color: #FFFFFF;
 }
 .services__item {
