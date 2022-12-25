@@ -72,6 +72,14 @@ a {
         margin-left: 25px;
     }
 }
+.header-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 45px 0px;
+}
 .header-block__title {
     font-size: 40px;
     font-weight: 700;
@@ -133,6 +141,9 @@ a {
     margin: -110px 0 0 0;
 }
 .page__stats {
+    padding: 80px 0;
+}
+.page__advice {
     padding: 80px 0;
 }
 /* -------------------------------------------- */
@@ -285,14 +296,6 @@ a {
     letter-spacing: 0.2px;
 }
 /* -------------------------------------------- */
-.stats__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 50px;
-    text-align: center;
-}
 .stats__body {
     display: flex;
     justify-content: space-between;
