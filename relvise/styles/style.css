@@ -265,6 +265,19 @@ a {
     font-weight: 700;
     line-height: 142%;
     letter-spacing: 0.2px;
+    width: 610px;
+    text-align: center;
+}
+@media(max-width: 992px) {
+    .header-block__title {
+        font-size: 36px;
+    }
+}
+@media(max-width: 576px) {
+    .header-block__title {
+        font-size: 32px;
+        width: 300px;
+    }
 }
 .header-block__subtitle {
     font-size: 14px;
@@ -272,6 +285,14 @@ a {
     line-height: 142%;
     letter-spacing: 0.2px;
     color: #737373;
+    width: 510px;
+    text-align: center;
+}
+@media(max-width: 576px) {
+    .header-block__subtitle {
+        font-size: 12px;
+        width: 300px;
+    }
 }
 .stats__body {
     display: flex;
