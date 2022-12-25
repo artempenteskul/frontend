@@ -362,10 +362,32 @@ a {
     justify-content: space-between;
 }
 .advices__column {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
     background: #FFFFFF;
 }
 .advices__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     padding: 30px;
+}
+.advices__title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+}
+.advices__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.advices__img {
+    
 }
 /* -------------------------------------------- */
 .footer {
