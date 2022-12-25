@@ -299,7 +299,6 @@ a {
 .stats__body {
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 @media(max-width: 992px) {
     .stats__body {
@@ -358,7 +357,16 @@ a {
     }
 }
 /* -------------------------------------------- */
-
+.advices__body {
+    display: flex;
+    justify-content: space-between;
+}
+.advices__column {
+    background: #FFFFFF;
+}
+.advices__content {
+    padding: 30px;
+}
 /* -------------------------------------------- */
 .footer {
     height: 270px;
