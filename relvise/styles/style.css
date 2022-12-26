@@ -144,6 +144,10 @@ a {
     padding: 80px 0;
 }
 .page__advices {
+    padding-bottom: 80px;
+}
+.page__who_we_are {
+    background: #FFFFFF;
     padding: 80px 0;
 }
 /* -------------------------------------------- */
@@ -359,7 +363,14 @@ a {
 /* -------------------------------------------- */
 .advices__body {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+@media (max-width: 992px) {
+    .advices__body {
+        gap: 30px;
+        justify-content: center;
+    }
 }
 .advices__column {
     display: flex;
@@ -372,6 +383,7 @@ a {
     flex-direction: column;
     gap: 15px;
     padding: 30px;
+    height: 140px;
 }
 .advices__title {
     font-size: 16px;
@@ -387,7 +399,7 @@ a {
     color: #737373;
 }
 .advices__img {
-    
+    width: 100%;    
 }
 /* -------------------------------------------- */
 .footer {
