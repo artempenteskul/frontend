@@ -135,7 +135,7 @@ a {
 .page {
     flex: 1 1 auto;
 }
-.page___services {
+.page__services {
     position: relative;
     z-index: 2;
     margin: -110px 0 0 0;
