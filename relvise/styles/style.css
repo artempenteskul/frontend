@@ -150,6 +150,9 @@ a {
     background: #FFFFFF;
     padding: 80px 0;
 }
+.page__clients {
+    padding: 60px;
+}
 /* -------------------------------------------- */
 .main-block {
     position: relative;
@@ -403,7 +406,7 @@ a {
 }
 /* -------------------------------------------- */
 .whowe__body {
-    padding: 55px 0 100px 0;
+    padding: 50px 0;
     display: flex;
     gap: 100px;
     align-items: center;
@@ -481,6 +484,14 @@ a {
     line-height: 171%;
     letter-spacing: 0.2px;
     color: #737373;
+}
+/* -------------------------------------------- */
+.clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
 }
 /* -------------------------------------------- */
 .footer {
