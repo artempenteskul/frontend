@@ -402,6 +402,50 @@ a {
     width: 100%;    
 }
 /* -------------------------------------------- */
+.whowe__body {
+    padding: 55px 0 100px 0;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.whowe__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+.whowe__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 50px;
+}
+.whowe__items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.whowe__item {
+    display: flex;
+    gap: 20px;
+}
+.item-whowe__title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+}
+.item-whowe__text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+/* -------------------------------------------- */
 .footer {
     height: 270px;
     background: #17213C;
