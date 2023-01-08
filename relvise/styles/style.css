@@ -765,3 +765,20 @@ a {
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contacts-footer__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contacts-footer__link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
