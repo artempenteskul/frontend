@@ -733,9 +733,8 @@ a {
     padding: 15px 40px;
 }
 /* -------------------------------------------- */
-
 .footer {
-    height: 270px;
+    padding: 50px 0;
     background: #17213C;
     color: #FFFFFF;
 }
