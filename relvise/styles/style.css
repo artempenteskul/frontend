@@ -157,7 +157,7 @@ a {
     padding: 20px;
 }
 .page__intouch {
-    padding: 35px 0 80px 0;
+    padding: 35px 0 135px 0;
 }
 /* -------------------------------------------- */
 .main-block {
@@ -614,6 +614,40 @@ a {
 }
 .subscribe__input:focus {
     color: #000000;
+}
+/* -------------------------------------------- */
+.intouch__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intouch__item {
+    flex: 0 1 33.333%;
+}
+.item-intouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 50px 40px;
+    gap: 15px;
+}
+.item-intouch__emails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-intouch__email {
+    color: inherit;
+    font-weight: 600;
+    line-height: 150%;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+.item-intouch__email:hover {
+    text-decoration: underline;
 }
 /* -------------------------------------------- */
 .footer {
