@@ -668,6 +668,11 @@ a {
     color: #FF7B47;
     line-height: 171%;
     letter-spacing: 0.2px;
+    transition: all 0.3s ease 0s;
+}
+.item-intouch__button:hover {
+    background-color: #FF7B47;
+    color: #FFFFFF;
 }
 /* -------------------------------------------- */
 .footer {
