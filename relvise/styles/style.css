@@ -159,6 +159,10 @@ a {
 .page__intouch {
     padding: 35px 0 135px 0;
 }
+.page__contact {
+    background: #FFFFFF;
+    padding: 40px 0;
+}
 /* -------------------------------------------- */
 .main-block {
     position: relative;
@@ -690,6 +694,37 @@ a {
     color: #252B42;
 }
 /* -------------------------------------------- */
+.contact__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    margin-bottom: 10px;
+}
+.contact__text {
+    color: #737373;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.2px;
+}
+.content__button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: #FF7B47;
+    border-radius: 5px;
+    padding: 15px 40px;
+
+}
+/* -------------------------------------------- */
+
 .footer {
     height: 270px;
     background: #17213C;
