@@ -765,6 +765,9 @@ a {
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
+.menu-footer__link:hover {
+    text-decoration: underline;
+}
 .contacts-footer {
     display: flex;
     flex-direction: column;
@@ -781,4 +784,7 @@ a {
     line-height: 171%;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+}
+.contacts-footer__link:hover {
+    text-decoration: underline;
 }
