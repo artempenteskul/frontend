@@ -616,11 +616,12 @@ a {
     color: #000000;
 }
 /* -------------------------------------------- */
-.intouch__items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 35px;
+@media (min-width: 992px) {
+    .intouch__items {
+        display: flex;
+        align-items: center;
+        padding-top: 35px;
+    }
 }
 .intouch__item {
     flex: 0 1 33.333%;
