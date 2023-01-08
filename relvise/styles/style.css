@@ -620,6 +620,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 35px;
 }
 .intouch__item {
     flex: 0 1 33.333%;
@@ -673,6 +674,19 @@ a {
 .item-intouch__button:hover {
     background-color: #FF7B47;
     color: #FFFFFF;
+}
+.item-intouch_active {
+    background-color: #252B42;
+    color: #FFFFFF;
+    padding: 80px 40px;
+}
+.item-intouch_active .item-intouch__button {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.item-intouch_active .item-intouch__button:hover {
+    background-color: #FFFFFF;
+    color: #252B42;
 }
 /* -------------------------------------------- */
 .footer {
