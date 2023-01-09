@@ -143,12 +143,22 @@ a {
 .page__stats {
     padding: 80px 0;
 }
+@media (max-width: 768px) {
+    .page__stats {
+        padding: 30px 0;
+    }
+}
 .page__advices {
     padding-bottom: 80px;
 }
 .page__whowe {
     background: #FFFFFF;
     padding: 80px 0;
+}
+@media (max-width: 768px) {
+    .page__whowe {
+        padding: 30px 0;
+    }
 }
 .page__clients {
     padding: 60px;
@@ -158,6 +168,11 @@ a {
 }
 .page__intouch {
     padding: 35px 0 80px 0;
+}
+@media (max-width: 768px) {
+    .page__intouch {
+        padding: 15px 0 80px 0;
+    }
 }
 .page__contact {
     background: #FFFFFF;
